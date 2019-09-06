@@ -6,6 +6,7 @@ A kotlin sample app illustrating some Android development best practices with An
 Screenshots
 -----------
 
+<img align="right" width="100" height="100" src="screenshots/list_of_turtels.png">
 ![List of turtles](screenshots/list_of_turtels.png)
 ![Turtle details](screenshots/turtle_details.png =240×501 "Details for a specific turtle")
 ![My Gallery](screenshots/turtle_gallery.png =240×501 "Turtles gallery")
