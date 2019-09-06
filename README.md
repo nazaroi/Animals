@@ -5,12 +5,11 @@ A kotlin sample app illustrating some Android development best practices with An
 
 Screenshots
 -----------
-
-<img align="left" width="240" src="screenshots/list_of_turtels.png">
-<img align="left" width="240" src="screenshots/turtle_details.png">
-<img align="left" width="240" src="screenshots/turtle_gallery.png">
-
-<div style="clear:both"></div>
+<p align="center">
+<img width="240" src="screenshots/list_of_turtels.png">
+<img width="240" src="screenshots/turtle_details.png">
+<img  width="240" src="screenshots/turtle_gallery.png">
+</p>
 
 Libraries Used
 --------------
