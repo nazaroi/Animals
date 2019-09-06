@@ -9,7 +9,7 @@ Screenshots
 <img align="left" width="240" src="screenshots/list_of_turtels.png">
 <img align="left" width="240" src="screenshots/turtle_details.png">
 <img align="left" width="240" src="screenshots/turtle_gallery.png">
-
+<div style="clear:both"></div>
 Libraries Used
 --------------
 * [Foundation][0] - Components for core system capabilities, Kotlin extensions and support for
