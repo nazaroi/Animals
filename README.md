@@ -7,9 +7,8 @@ Screenshots
 -----------
 
 <img align="left" width="240" src="screenshots/list_of_turtels.png">
-![List of turtles](screenshots/list_of_turtels.png)
-![Turtle details](screenshots/turtle_details.png =240×501 "Details for a specific turtle")
-![My Gallery](screenshots/turtle_gallery.png =240×501 "Turtles gallery")
+<img align="left" width="240" src="screenshots/turtle_details.png">
+<img align="left" width="240" src="screenshots/turtle_gallery.png">
 
 Libraries Used
 --------------
