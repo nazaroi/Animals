@@ -6,9 +6,9 @@ A kotlin sample app illustrating some Android development best practices with An
 Screenshots
 -----------
 
-![List of turtles](screenshots/list_of_turtels.png "A list of turtles")
-![Turtle details](screenshots/turtle_details.png "Details for a specific turtle")
-![My Gallery](screenshots/turtle_gallery.png "Turtles gallery")
+![List of turtles](screenshots/list_of_turtels.png =240×501 "A list of turtles")
+![Turtle details](screenshots/turtle_details.png =240×501 "Details for a specific turtle")
+![My Gallery](screenshots/turtle_gallery.png =240×501 "Turtles gallery")
 
 Libraries Used
 --------------
