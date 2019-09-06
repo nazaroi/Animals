@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    app:layoutDescription="@xml/ms_fragment_gallery">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fragment_gallery_vp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/fragment_gallery_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@null"
+        android:padding="@dimen/padding_normal"
+        android:tint="@android:color/white"
+        app:srcCompat="@drawable/ic_arrow_back" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/fragment_gallery_tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabIndicatorHeight="@dimen/height_gallery_tab_indicator"
+        app:tabMaxWidth="@dimen/size_gallery_tab_item"
+        app:tabMinWidth="@dimen/size_gallery_tab_item"
+        app:tabMode="scrollable"
+        app:tabPaddingBottom="@dimen/height_gallery_tab_indicator"
+        app:tabPaddingEnd="0dp"
+        app:tabPaddingStart="0dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

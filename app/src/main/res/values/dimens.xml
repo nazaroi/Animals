@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_toolbar_collapsed">192dp</dimen>
+    <dimen name="height_gallery_tab_indicator">4dp</dimen>
+    <dimen name="size_gallery_tab_item">48dp</dimen>
+</resources>

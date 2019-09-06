@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="articleIds">
+        <item>@xml/article_desert_tortoise</item>
+        <item>@xml/article_river_turtle</item>
+        <item>@xml/article_sea_turtle</item>
+        <item>@xml/article_snapping_turtle</item>
+        <item>@xml/article_african_spurred_turtle</item>
+        <item>@xml/article_cryptodira_turtle</item>
+        <item>@xml/article_green_sea_turtle</item>
+        <item>@xml/article_read_eared_turtle</item>
+    </array>
+</resources>

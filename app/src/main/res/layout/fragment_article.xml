@@ -1,0 +1,59 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.sample.app.ui.article.ArticleViewModel" />
+
+        <variable
+            name="eventListener"
+            type="com.sample.app.ui.article.OpenGalleryActionHandler" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentScrim="@color/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed">
+
+                <ImageView
+                    android:id="@+id/fragment_article_toolbar_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="192dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    app:imageUrl="@{viewModel.article.icon}"
+                    app:layout_collapseMode="parallax"
+                    tools:srcCompat="@tools:sample/backgrounds/scenic[19]" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:navigationIcon="?attr/homeAsUpIndicator"
+                    app:title="@{viewModel.article.name}" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <include
+            android:id="@+id/fragment_article_content"
+            layout="@layout/fragment_article_content"
+            app:viewModel="@{viewModel}"
+            app:eventListener="@{eventListener}" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
