@@ -20,7 +20,7 @@
             android:text="@{item.section}"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@android:color/black"
-            app:fontFamily="@font/khula_bold"
+            app:fontFamily="@font/khula_semibold"
             tools:text="@tools:sample/full_names" />
         <View
             android:layout_width="match_parent"

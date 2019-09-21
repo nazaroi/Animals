@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="articleIds">
-        <item>@xml/article_desert_tortoise</item>
-        <item>@xml/article_river_turtle</item>
-        <item>@xml/article_sea_turtle</item>
-        <item>@xml/article_snapping_turtle</item>
-        <item>@xml/article_african_spurred_turtle</item>
-        <item>@xml/article_cryptodira_turtle</item>
-        <item>@xml/article_green_sea_turtle</item>
-        <item>@xml/article_read_eared_turtle</item>
+        <item>@xml/article_african_elephant</item>
+        <item>@xml/article_african_lion</item>
+        <item>@xml/article_arctic_fox</item>
+        <item>@xml/article_bald_eagle</item>
+        <item>@xml/article_bengal_tiger</item>
+        <item>@xml/article_burmese_python</item>
+        <item>@xml/article_cheetah</item>
+        <item>@xml/article_giant_panda</item>
+        <item>@xml/article_giraffes</item>
+        <item>@xml/article_gray_wolf</item>
+        <item>@xml/article_horse</item>
+        <item>@xml/article_jaguar</item>
+        <item>@xml/article_king_cobra</item>
+        <item>@xml/article_koalas</item>
+        <item>@xml/article_komodo_dragon</item>
+        <item>@xml/article_polar_bear</item>
+        <item>@xml/article_praying_mantis</item>
+        <item>@xml/article_red_fox</item>
+        <item>@xml/article_red_panda</item>
     </array>
 </resources>

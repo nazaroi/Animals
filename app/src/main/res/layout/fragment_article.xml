@@ -25,13 +25,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:contentScrim="@color/colorPrimary"
+
                 app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed">
 
                 <ImageView
                     android:id="@+id/fragment_article_toolbar_image"
                     android:layout_width="match_parent"
                     android:layout_height="192dp"
-                    android:background="@color/colorPrimaryDark"
                     android:contentDescription="@null"
                     android:scaleType="centerCrop"
                     app:imageUrl="@{viewModel.article.icon}"
@@ -43,8 +43,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="?android:attr/actionBarSize"
                     app:layout_collapseMode="pin"
+                    android:background="@drawable/bg_fragment_article_app_bar"
                     app:navigationIcon="?attr/homeAsUpIndicator"
-                    app:title="@{viewModel.article.name}" />
+                 />
 
             </com.google.android.material.appbar.CollapsingToolbarLayout>
         </com.google.android.material.appbar.AppBarLayout>
@@ -52,8 +53,12 @@
         <include
             android:id="@+id/fragment_article_content"
             layout="@layout/fragment_article_content"
-            app:viewModel="@{viewModel}"
-            app:eventListener="@{eventListener}" />
+            app:viewModel="@{viewModel}" />
+
+        <include
+            layout="@layout/fragment_article_bottom_bar"
+            app:eventListener="@{eventListener}"
+            app:viewModel="@{viewModel}" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

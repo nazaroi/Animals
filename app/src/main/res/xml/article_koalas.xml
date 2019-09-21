@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>Koalas</name>
+        <description>Koalas usually get all the water they need from eucalyptus leaves</description>
+        <icon>https://cdn.britannica.com/26/162626-050-3534626F/Koala.jpg</icon>
+        <gallery>
+            <url>https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg</url>
+            <url>https://media.australianmuseum.net.au/media/dd/images/Some_image.width-800.25af59c.jpg</url>
+            <url>https://images.earthtouchnews.com/media/1951762/koala-and-baby_2019-05-15.jpg</url>
+            <url>https://images.newscientist.com/wp-content/uploads/2019/05/17140757/h80292.jpg</url>
+        </gallery>
+    </head>
+    <body>
+        <p>Though often called the koala “bear,” this cuddly animal is not a bear at all; it is a
+            marsupial, or pouched mammal. After giving birth, a female koala carries her baby in her
+            pouch for about six months. When the infant emerges, it rides on its mother's back or
+            clings to her belly, accompanying her everywhere until it is about a year old.
+        </p>
+        <section>Sleepy Behavior and Eucalyptus Diet</section>
+        <p>Koalas live in eastern Australia, where the eucalyptus trees they love are most
+            plentiful. In fact, they rarely leave these trees, and their sharp claws and opposable
+            digits easily keep them aloft. During the day they doze, tucked into forks or nooks in
+            the trees, sleeping for up to 18 hours.
+        </p>
+        <p>When not asleep a koala feeds on eucalyptus leaves, especially at night. Koalas do not
+            drink much water and they get most of their moisture from these leaves. Each animal eats
+            a tremendous amount for its size—about two and a half pounds of leaves a day. Koalas
+            even store snacks of leaves in pouches in their cheeks.
+        </p>
+        <img
+            description="Koalas are native to Australia."
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2019/07/GettyImages-1010436160-2b5f41d.jpg?quality=90&amp;lb=1456,969&amp;background=white" />
+        <section>Population</section>
+        <p>These plump, fuzzy mammals were widely hunted during the 1920s and 1930s, and their
+            populations plunged. Helped by reintroduction, they have reappeared over much of their
+            former range, but their populations are smaller and scattered. Koalas need a lot of
+            space—about a hundred trees per animal—a pressing problem as Australia's woodlands
+            continue to shrink.
+        </p>
+    </body>
+</article>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>Red Panda</name>
+        <description>A 403-pound Burmese python named Baby holds the record for heaviest snake
+            captivity
+        </description>
+        <icon>
+            https://greenvillejournal.com/wp-content/uploads/2018/09/23685364241_d7668ef265_o.jpg
+        </icon>
+        <gallery>
+            <url>
+                https://news.cgtn.com/news/3d3d674d33496a4e77457a6333566d54/img/ac0fecc544c84353a911657eb0b7e48a/ac0fecc544c84353a911657eb0b7e48a.jpg
+            </url>
+            <url>
+                https://redpandazine.com/wp-content/uploads/2018/08/Mum-Rufina-with-one-of-her-red-panda-cub-twins-at-Longleat-three-PIC-Sam...-e1533238926635.jpg
+            </url>
+        </gallery>
+    </head>
+    <body>
+        <p>The red panda is dwarfed by the black-and-white giant that shares its name. These pandas
+            typically grow to the size of a house cat, though their big, bushy tails add an
+            additional 18 inches. The pandas use their ringed tails as wraparound blankets in the
+            chilly mountain heights.
+        </p>
+        <section>Habitat and Behavior</section>
+        <p>The red panda shares the giant panda's rainy, high-altitude forest habitat, but has a
+            wider range. Red pandas live in the mountains of Nepal and northern Myanmar (Burma), as
+            well as in central China.
+        </p>
+        <p>These animals spend most of their lives in trees and even sleep aloft. When foraging,
+            they are most active at night as well as in the gloaming hours of dusk and dawn.
+        </p>
+        <p>Red pandas have a taste for bamboo but, unlike their larger relatives, they eat many
+            other foods as well—fruit, acorns, roots, and eggs. Like giant pandas, they have an
+            extended wrist bone that functions almost like a thumb and greatly aids their grip.
+        </p>
+        <img
+            description="A red panda descending a tree head first"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/RedPandaDescent.JPG/768px-RedPandaDescent.JPG" />
+        <section>Breeding and Population</section>
+        <p>They are shy and solitary except when mating. Females give birth in the spring and
+            summer, typically to one to four young. Young red pandas remain in their nests for about
+            90 days, during which time their mother cares for them. (Males take little or no
+            interest in their offspring.)
+        </p>
+        <p>The red panda has given scientists taxonomic fits. It has been classified as a relative
+            of the giant panda, and also of the raccoon, with which it shares a ringed tail.
+            Currently, red pandas are considered members of their own unique family—the Ailuridae.
+        </p>
+        <p>Red pandas are an at-risk species, victims of deforestation. Their natural space is
+            shrinking as more and more forests are destroyed by logging and the spread of
+            agriculture.
+        </p>
+    </body>
+</article>

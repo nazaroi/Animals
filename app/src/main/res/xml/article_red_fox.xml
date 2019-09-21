@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>Red Fox</name>
+        <description>The species often produces individuals with other colourings, including albinos
+            and melanists.
+        </description>
+        <icon>
+            https://cvs33.files.wordpress.com/2019/01/red-fox-winter-south-china-4-hal-winters-1.jpg
+        </icon>
+        <gallery>
+            <url>
+                https://www.inquirer.com/resizer/wpTCzumy8Ao1bC9HYIB0OQRdIdk=/1400x932/smart/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/WXDSDKLS6FBYPLMMBYAPM4BZEE.jpg
+            </url>
+            <url>https://www.pwpark.com/wp-content/uploads/2018/09/Red-Fox-min-1024x928.jpg</url>
+            <url>
+                https://www.nrcm.org/wp-content/uploads/2018/12/Red-fox-winter-South-China-1-Hal-Winters.jpg
+            </url>
+            <url>https://www.wildlifeonline.me.uk/assets/ugc/gallery/fox_lying_in_grass01.jpg</url>
+        </gallery>
+    </head>
+    <body>
+        <p>Red foxes live around the world in many diverse habitats including forests, grasslands,
+            mountains, and deserts. They also adapt well to human environments such as farms,
+            suburban areas, and even large communities. The red fox's resourcefulness has earned it
+            a legendary reputation for intelligence and cunning.
+        </p>
+        <section>Behavior and Communication</section>
+        <p>Red foxes are solitary hunters who feed on rodents, rabbits, birds, and other small
+            game—but their diet can be as flexible as their home habitat. Foxes will eat fruit and
+            vegetables, fish, frogs, and even worms. If living among humans, foxes will
+            opportunistically dine on garbage and pet food.
+        </p>
+        <p>Like a cat's, the fox's thick tail aids its balance, but it has other uses as well. A fox
+            uses its tail (or “brush”) as a warm cover in cold weather and as a signal flag to
+            communicate with other foxes.
+        </p>
+        <img
+            description="A fox running on grass."
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2015/09/GettyImages-153815436-1702aa6.jpg?quality=90&amp;lb=1456,969&amp;background=white" />
+        <p>Foxes also signal each other by making scent posts—urinating on trees or rocks to
+            announce their presence.
+        </p>
+        <section>Breeding</section>
+        <p>In winter, foxes meet to mate. The vixen (female) typically gives birth to a litter of 2
+            to 12 pups. At birth, red foxes are actually brown or gray. A new red coat usually grows
+            in by the end of the first month, but some red foxes are golden, reddish-brown, silver,
+            or even black. Both parents care for their young through the summer before they are able
+            to strike out on their own in the fall.
+        </p>
+        <p>Red foxes are hunted for sport, though not extensively, and are sometimes killed as
+            destructive pests or frequent carriers of rabies.
+        </p>
+    </body>
+</article>

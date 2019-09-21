@@ -2,9 +2,16 @@
 <resources>
     <color name="colorPrimaryLight">#6ec6ff</color>
     <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryOpaque">#ff2196f3</color>
     <color name="colorPrimaryDark">#0069c0</color>
 
     <color name="colorAccentLight">#df78ef</color>
     <color name="colorAccent">#ab47bc</color>
     <color name="colorAccentDark">#790e8b</color>
+
+    <color name="color_grey_100">#F5F5F5</color>>
+    <color name="color_grey_400">#BDBDBD</color>>
+    <color name="color_grey_500">#9E9E9E</color>>
+    <color name="color_grey_700">#616161</color>>
+
 </resources>

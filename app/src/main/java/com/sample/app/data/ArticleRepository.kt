@@ -2,7 +2,6 @@ package com.sample.app.data
 
 import android.content.Context
 import android.util.Xml
-import com.sample.app.R
 import com.sample.app.model.*
 import com.sample.app.util.nextTextClean
 import com.sample.app.util.textClean
@@ -21,7 +20,7 @@ object ArticleRepository {
         val xpp = context.resources.getXml(id)
         val attr = Xml.asAttributeSet(xpp)
 
-        val article = Article(R.xml.article_desert_tortoise)
+        val article = Article(id)
 
         try {
             while (xpp.eventType != XmlPullParser.END_DOCUMENT) {

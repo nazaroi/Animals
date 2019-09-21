@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>Bald Eagle</name>
+        <description>Bald eagles can dive at up to 100 miles an hour to snatch a fish from the
+            water
+        </description>
+        <icon>
+            https://ca-times.brightspotcdn.com/dims4/default/2ad8e6f/2147483647/strip/true/crop/3500x1969+0+182/resize/1200x675!/quality/90/?url=https%3A%2F%2Fca-times.brightspotcdn.com%2Fd8%2F61%2F721173084054b3c4ac0f2dd92b6f%2Fcah-bald-eagle-horiz.JPG
+        </icon>
+        <gallery>
+            <url>https://www.mtdemocrat.com/files/2019/01/a3-eagle-RGB.jpg</url>
+            <url>https://nationalzoo.si.edu/sites/default/files/animals/baldeagle-002.jpg</url>
+            <url>
+                https://2qibqm39xjt6q46gf1rwo2g1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/10151704_web1_M-eagle1-edh-180114.jpg
+            </url>
+        </gallery>
+    </head>
+    <body>
+        <p>The bald eagle, with its snowy-feathered (not bald) head and white tail, is the proud
+            national bird symbol of the United States—yet the bird was nearly wiped out there. For
+            many decades, bald eagles were hunted for sport and for the "protection" of fishing
+            grounds. Pesticides like DDT also wreaked havoc on eagles and other birds. These
+            chemicals collect in fish, which make up most of the eagle's diet. They weaken the
+            bird's eggshells and severely limited their ability to reproduce. Since DDT use was
+            heavily restricted in 1972, eagle numbers have rebounded significantly and have been
+            aided by reintroduction programs. The result is a wildlife success story—the U.S. Fish
+            and Wildlife Service has upgraded the birds from endangered to least concern.
+        </p>
+        <section>Habitat and Diet</section>
+        <p>Though their numbers have grown in much of their range, bald eagles remain most abundant
+            in Alaska and Canada. These powerful birds of prey use their talons to fish, but they
+            get many of their meals by scavenging carrion or stealing the kills of other animals.
+            (Such thievery famously prompted Ben Franklin to argue against the bird's nomination as
+            the United State's national symbol.) They live near water and favor coasts and lakes
+            where fish are plentiful, though they will also snare and eat small mammals.
+        </p>
+        <img
+            description="Head details"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bald_Eagle_Portrait.jpg/819px-Bald_Eagle_Portrait.jpg" />
+        <section>Breeding</section>
+        <p>Bald eagles are believed to mate for life. A pair constructs an enormous stick nest—one
+            of the bird-world's biggest—high above the ground and tends to a pair of eggs each year.
+            Immature eagles are dark, and until they are about five years old, they lack the
+            distinctive white markings that make their parents so easy to identify. Young eagles
+            roam great distances. Florida birds have been spotted in Michigan, and California eagles
+            have traveled all the way to Alaska.
+        </p>
+    </body>
+</article>

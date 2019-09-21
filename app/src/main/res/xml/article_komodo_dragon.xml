@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>Komodo Dragon</name>
+        <description>The Komodo dragon's split is toxic but prey usually die from being torn apart.
+        </description>
+        <icon>https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/dragon_16x9_0.jpg?itok=OStJUzQi</icon>
+        <gallery>
+            <url>https://ewscripps.brightspotcdn.com/dims4/default/8a60cf0/2147483647/strip/true/crop/1803x1014+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F01%2Fec%2Fe29bda20486b9bcbb62d230adb0f%2Fdenver-zoo-raja.jpg</url>
+            <url>https://img.jakpost.net/c/2018/04/05/2018_04_05_43390_1522908887._large.jpg</url>
+            <url>https://saywhat.news/wp-content/uploads/2019/06/komododragon-002.jpg</url>
+        </gallery>
+    </head>
+    <body>
+        <p>Komodo dragons have thrived in the harsh climate of Indonesia's Lesser Sunda Islands for
+            millions of years.
+        </p>
+        <section>Size and Weight</section>
+        <p>Reaching 10 feet in length and more than 300 pounds, Komodo dragons are the heaviest
+            lizards on Earth. They have long, flat heads with rounded snouts, scaly skin, bowed
+            legs, and huge, muscular tails.
+        </p>
+        <section>Diet</section>
+        <p>As the dominant predators on the handful of islands they inhabit, they will eat almost
+            anything, including carrion, deer, pigs, smaller dragons, and even large water buffalo
+            and humans. When hunting, Komodo dragons rely on camouflage and patience, lying in wait
+            for passing prey. When a victim ambles by, the dragon springs, using its powerful legs,
+            sharp claws and serrated, shark-like teeth to eviscerate its prey.
+        </p>
+        <img
+            description="Fighting komodo dragons"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/KomodoDragon_Wrestle1.jpg/1280px-KomodoDragon_Wrestle1.jpg" />
+        <section>Feeding</section>
+        <p>The dragon has venom glands, which are loaded with toxins that lower blood pressure,
+            cause massive bleeding, prevent clotting, and induce shock. They bite down with serrated
+            teeth and pull back with powerful neck muscles. The result: huge gaping wounds. The
+            venom then quickens the loss of blood and sends the prey into shock. Animals that escape
+            the jaws of a Komodo will only feel lucky briefly. Dragons can calmly follow an escapee
+            for miles as the venom takes effect, using their keen sense of smell to hone in on the
+            corpse. A dragon can eat a whopping 80 percent of its body weight in a single feeding.
+        </p>
+        <section>Population</section>
+        <p>There is a stable population of Komodo dragons on the islands of Komodo, Gila Motang,
+            Rinca, and Flores. However, a dearth of egg-laying females, poaching, human
+            encroachment, and natural disasters have threaten the species' population.
+        </p>
+    </body>
+</article>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>Giant Panda</name>
+        <description>Giant pandas are good at climbing trees and can also swim.</description>
+        <icon>
+            https://media.buzzle.com/media/images-en/gallery/mammals/panda/1200-492303921-panda-sleeping.jpg
+        </icon>
+        <gallery>
+            <url>
+                https://nationalzoo.si.edu/sites/default/files/styles/1400_scale/public/animals/giantpanda-001.jpg?itok=QjpspIsF
+            </url>
+            <url>https://institute.sandiegozoo.org/sites/default/files/heros-giant-panda.jpg</url>
+            <url>
+                https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2016/09/05/a3e3ed8c-7307-11e6-800a-ae97f003174d_1280x720.jpg?itok=LGf1hM3S
+            </url>
+            <url>
+                https://cdn.vox-cdn.com/thumbor/oSPXgfpdFDBMz1xVW1NehqVQlxg=/0x0:3000x2043/1200x800/filters:focal(1260x782:1740x1262)/cdn.vox-cdn.com/uploads/chorus_image/image/50696077/594343720.0.jpg
+            </url>
+            <url>
+                https://media.apnarm.net.au/media/images/2019/05/21/imagev1299af07da3dba2c62e20dc7f82ae5be4-uezkwmgiqjb6nql6cs2.jpg
+            </url>
+        </gallery>
+    </head>
+    <body>
+        <p>The giant panda has an insatiable appetite for bamboo. A typical animal eats half the
+            day—a full 12 out of every 24 hours—and relieves itself dozens of times a day. It takes
+            28 pounds of bamboo to satisfy a giant panda's daily dietary needs, and it hungrily
+            plucks the stalks with elongated wrist bones that function rather like thumbs. Pandas
+            will sometimes eat birds or rodents as well.
+        </p>
+        <section>Behavior and Habitat</section>
+        <p>Wild pandas live only in remote, mountainous regions in central China. These high bamboo
+            forests are cool and wet—just as pandas like it. They may climb as high as 13,000 feet
+            to feed on higher slopes in the summer season.
+        </p>
+        <img
+            description="Eastern cultures traditionally regard the panda as a symbol of peace and good fortune"
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2019/02/PANDAG_040200-a154749.jpg?quality=90&amp;lb=1456,969&amp;background=white" />
+        <p>Pandas are often seen eating in a relaxed sitting posture, with their hind legs stretched
+            out before them. They may appear sedentary, but they are skilled tree-climbers and
+            efficient swimmers.
+        </p>
+        <section>Breeding and Population</section>
+        <p>Giant pandas are solitary. They have a highly developed sense of smell that males use to
+            avoid each other and to find females for mating in the spring. After a five-month
+            pregnancy, females give birth to a cub or two, though they cannot care for both twins.
+            The blind infants weigh only 5 ounces at birth and cannot crawl until they reach three
+            months of age. They are born white, and develop their much loved coloring later.
+        </p>
+        <img
+            description="… in China the bear was historically compared to yin and yang because of its black and white patterning."
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2019/02/PANDAG_040150-85a55c5.jpg?quality=90&amp;lb=1456,969&amp;background=white" />
+        <p>Improved conservation efforts and better survey methods show an increase in the wild
+            panda population. Hundreds more pandas live in breeding centers and zoos, where they are
+            always among the most popular attractions. Much of what we know about pandas comes from
+            studying these zoo animals, because their wild cousins are so rare and elusive.
+        </p>
+    </body>
+</article>

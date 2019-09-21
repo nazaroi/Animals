@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>Cheetah</name>
+        <description>Today the Asiatic cheetah lives only in a remote corner of Iran</description>
+        <icon>https://cdn.britannica.com/98/152298-050-8E45510A/Cheetah.jpg</icon>
+        <gallery>
+            <url>https://parade.com/wp-content/uploads/2017/12/Cheetah-FTR.jpg</url>
+            <url>
+                https://geographical.co.uk/media/k2/items/cache/a8ceb9c05274b502fb0c493236e01a54_XL.jpg
+            </url>
+            <url>
+                https://kids.nationalgeographic.com/content/dam/kids/photos/animals/Mammals/A-G/cheetah-watching.ngsversion.1396530528126.adapt.1900.1.jpg
+            </url>
+        </gallery>
+    </head>
+    <body>
+        <p>The cheetah is the world's fastest land mammal. With acceleration that would leave most
+            automobiles in the dust, a cheetah can go from 0 to 60 miles an hour in only three
+            seconds. These big cats are quite nimble at high speed and can make quick and sudden
+            turns in pursuit of prey.
+        </p>
+        <section>Speed and Hunting</section>
+        <p>Before unleashing their speed, cheetahs use exceptionally keen eyesight to scan their
+            grassland environment for signs of prey—especially antelope and hares. This big cat is a
+            daylight hunter that benefits from stealthy movement and a distinctive spotted coat that
+            allows it to blend easily into high, dry grasses.
+        </p>
+        <img
+            description="A female cheetah showing her teeth."
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2015/10/GettyImages-178672763-672f79d.jpg?quality=90&amp;lb=1456,969&amp;background=white" />
+        <p>When the moment is right a cheetah will sprint after its quarry and attempt to knock it
+            down. Such chases cost the hunter a tremendous amount of energy and are usually over in
+            less than a minute. If successful, the cheetah will often drag its kill to a shady
+            hiding place to protect it from opportunistic animals that sometimes steal a kill before
+            the cheetah can eat. Cheetahs need only drink once every three to four days.
+        </p>
+        <section>Breeding and Population</section>
+        <p>Female cheetahs typically have a litter of three cubs and live with them for one and a
+            half to two years. Young cubs spend their first year learning from their mother and
+            practicing hunting techniques with playful games. Male cheetahs live alone or in small
+            groups, often with their littermates.
+        </p>
+        <p>Most wild cheetahs are found in eastern and southwestern Africa. These populations are
+            under pressure as the wide-open grasslands they favor are disappearing at the hands of
+            human settlers.
+        </p>
+    </body>
+</article>

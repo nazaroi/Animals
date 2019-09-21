@@ -28,9 +28,7 @@ class SearchFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         binding = FragmentSearchBinding.inflate(inflater, container, false)
-
         return binding.root
     }
 

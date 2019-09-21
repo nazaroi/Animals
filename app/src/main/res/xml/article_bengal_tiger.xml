@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>Bengal Tiger</name>
+        <description>The Bengal tiger in India's national animal-and one of the country's largest
+            draws.
+        </description>
+        <icon>
+            https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/11/Bengal-Tiger-in-forest-show-head-and-leg-1200x853.jpg
+        </icon>
+        <gallery>
+            <url>
+                https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/11/Royal-bengal-tiger-at-Sundarban-National-Park-India.jpg
+            </url>
+            <url>
+                https://www.bigcatsindia.com/wp-content/uploads/2018/06/Royal-Bengal-Tiger-1280x720.jpg
+            </url>
+        </gallery>
+    </head>
+    <body>
+        <p>Tigers are the largest members of the cat family and are renowned for their power and
+            strength.
+        </p>
+        <section>Tiger Populations</section>
+        <p>There were eight tiger subspecies at one time, but three became extinct during the 20th
+            century. Over the last 100 years, hunting and forest destruction have reduced tiger
+            populations from hundreds of thousands of animals to perhaps fewer than 2,500. Tigers
+            are hunted as trophies, and also for body parts that are used in traditional Chinese
+            medicine. All five remaining tiger subspecies are at-risk, and many protection programs
+            are in place.
+        </p>
+        <img
+            description="A Bengal tiger showing off his stripes in Bandhavgarh National Park, Madhya Pradesh, India."
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2016/06/GettyImages-163243396-c12158f.jpg?quality=90&amp;lb=1456,969&amp;background=white" />
+        <p>Bengal tigers live in India and are sometimes called Indian tigers. They are the most
+            common tiger and number about half of all wild tigers. Over many centuries they have
+            become an important part of Indian tradition and lore. (To learn more, watch this video
+            about what's driving tigers to extinction.)
+        </p>
+        <section>Behavior</section>
+        <p>Tigers live alone and aggressively scent-mark large territories to keep their rivals
+            away. They are powerful nocturnal hunters that travel many miles to find buffalo, deer,
+            wild pigs, and other large mammals. Tigers use their distinctive coats as camouflage (no
+            two have exactly the same stripes). They lie in wait and creep close enough to attack
+            their victims with a quick spring and a fatal pounce. A hungry tiger can eat as much as
+            60 pounds in one night, though they usually eat less.
+        </p>
+        <p>Despite their fearsome reputation, most tigers avoid humans; however, a few do become
+            dangerous maneaters. These animals are often sick and unable to hunt normally, or live
+            in an area where their traditional prey has vanished.
+        </p>
+        <img
+            description="A tiger face would be pretty terrifying if you think it might be the last thing you’ll ever see!"
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2016/06/GettyImages-685856464-1a0b110.jpg?quality=90&amp;lb=1456,969&amp;background=white" />
+        <p>Females give birth to litters of two to six cubs, which they raise with little or no
+            help from the male. Cubs cannot hunt until they are 18 months old and remain with their
+            mothers for two to three years, when they disperse to find their own territory.
+        </p>
+    </body>
+</article>

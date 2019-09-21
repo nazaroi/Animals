@@ -12,3 +12,4 @@ class MainActivity : AppCompatActivity() {
         Timber.plant(Timber.DebugTree());
     }
 }
+

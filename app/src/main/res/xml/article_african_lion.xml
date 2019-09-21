@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>African Lion</name>
+        <description>African lions prefer to hunt on dark nights,when the moon is below the
+            horizon
+        </description>
+        <icon>https://nationalzoo.si.edu/sites/default/files/animals/africanlion-006_0.jpg</icon>
+        <gallery>
+            <url>https://theheartofontario.com/wp-content/uploads/2018/03/IMG_5724.jpg</url>
+            <url>
+                https://cbsnews1.cbsistatic.com/hub/i/2015/10/26/e72e71e9-cb4f-4557-948c-16d7fbf2d4a7/cecil.jpg
+            </url>
+            <url>https://i.pinimg.com/originals/57/7f/ec/577fec06033c2a7bf2b0cb7bd29a46f7.jpg</url>
+        </gallery>
+    </head>
+    <body>
+        <p>Lions are the only cats that live in groups, which are called prides. Prides are family
+            units that may include up to three males, a dozen or so females, and their young. All of
+            a pride's lionesses are related, and female cubs typically stay with the group as they
+            age. Young males eventually leave and establish their own prides by taking over a group
+            headed by another male.
+        </p>
+        <section>Lion Prides and Hunting</section>
+        <p>Only male lions boast manes, the impressive fringe of long hair that encircles their
+            heads. Males defend the pride's territory, which may include some 100 square miles of
+            grasslands, scrub, or open woodlands. These intimidating animals mark the area with
+            urine, roar menacingly to warn intruders, and chase off animals that encroach on their
+            turf.
+        </p>
+        <img
+            description="Male lion in the Masai Mara, Kenya"
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2018/11/GettyImages-494856046-a7dade1.jpg?quality=45&amp;crop=153px,93px,3567px,2376px&amp;resize=1456,969" />
+        <p>Female lions are the pride's primary hunters. They often work together to prey upon
+            antelopes, zebras, wildebeest, and other large animals of the open grasslands. Many of
+            these animals are faster than lions, so teamwork pays off.
+        </p>
+        <p>After the hunt, the group effort often degenerates to squabbling over the sharing of the
+            kill, with cubs at the bottom of the pecking order. Young lions do not help to hunt
+            until they are about a year old. Lions will hunt alone if the opportunity presents
+            itself, and they also steal kills from hyenas or wild dogs.
+        </p>
+        <img
+            description="Two young lion cubs."
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2018/11/GettyImages-998025222-cbe0dc3.jpg?quality=45&amp;crop=262px,53px,4346px,2895px&amp;resize=1456,969" />
+        <section>Conservation</section>
+        <p>Lions have been celebrated throughout history for their courage and strength. They once
+            roamed most of Africa and parts of Asia and Europe. Today they are found only in parts
+            of sub-Saharan Africa, except for one very small population of Asian lions that survives
+            in India's Gir Forest.
+        </p>
+    </body>
+</article>

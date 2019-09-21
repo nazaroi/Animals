@@ -1,5 +1,7 @@
 package com.sample.app.ui.gallery
 
+import android.animation.AnimatorSet
+import android.animation.ObjectAnimator
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,8 +13,12 @@ import com.sample.app.R
 import com.sample.app.databinding.ItemTabGalleryBinding
 import kotlinx.android.synthetic.main.fragment_gallery.*
 import org.jetbrains.anko.sdk27.coroutines.onClick
+import timber.log.Timber
 
+// not using VMMV for this gallery feature
 class GalleryFragment : Fragment() {
+
+    private var isFullMode = false
 
     private val args: GalleryFragmentArgs by navArgs()
 

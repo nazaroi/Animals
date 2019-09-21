@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>African Elephant</name>
+        <description>Elephants are the world’s largest land animal!</description>
+        <icon>
+            https://cff2.earth.com/uploads/2018/04/16122240/African-elephants-slowly-recovering-from-years-of-poaching.jpg
+        </icon>
+        <gallery>
+            <url>
+                https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/wlds43_654640_2400.jpg?itok=LbhnLIk9
+            </url>
+            <url>https://www.naturalworldsafaris.com/media/5373/nws-st-african-elephant.jpg</url>
+            <url>
+                https://vignette.wikia.nocookie.net/cn-animals/images/9/91/Img_1750_%282%29.jpg/revision/latest?cb=20180809015022
+            </url>
+        </gallery>
+    </head>
+    <body>
+        <p>African elephants are the largest land animals on Earth. They are slightly larger than
+            their Asian cousins and can be identified by their larger ears that look somewhat like
+            the continent of Africa. (Asian elephants have smaller, rounded ears.)
+        </p>
+        <section>Trunks and Tusks</section>
+        <p>Elephant ears radiate heat to help keep these large animals cool, but sometimes the
+            African heat is too much. Elephants are fond of water and enjoy showering by sucking
+            water into their trunks and spraying it all over themselves. Afterwards, they often
+            spray their skin with a protective coating of dust.
+        </p>
+        <p>Both male and female African elephants have tusks they use to dig for food and water and
+            strip bark from trees. Males use the tusks to battle one another, but the ivory has also
+            attracted violence of a far more dangerous sort.
+        </p>
+
+        <img
+            description="Baby elephants are called calves, and they’re super cute"
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2015/08/GettyImages-636941286-ff49831.jpg?quality=90" />
+
+        <p>Because ivory is so valuable to some humans, many elephants have been killed for their
+            tusks. This trade is illegal today, but it has not been completely eliminated, and some
+            African elephant populations remain endangered.
+        </p>
+        <section>Diet</section>
+        <p>Elephants eat roots, grasses, fruit, and bark, and they eat a lot of these things. An
+            adult elephant can consume up to 300 pounds of food in a single day.
+        </p>
+        <p>These hungry animals do not sleep much, and they roam over great distances while foraging
+            for the large quantities of food that they require to sustain their massive bodies.
+        </p>
+        <section>Herds and Habitat</section>
+        <p>Female elephants (cows) live in family herds with their young, but adult males (bulls)
+            tend to roam on their own.
+        </p>
+        <img
+            description="This African bull elephant might weigh six tonnes"
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2015/08/GettyImages-1046198352-f8cfb6e.jpg?quality=90" />
+        <p>Having a baby elephant is a serious commitment. Elephants have a longer pregnancy than
+            any other mammal—almost 22 months. Cows usually give birth to one calf every two to four
+            years. At birth, elephants already weigh some 200 pounds and stand about 3 feet tall.
+        </p>
+        <p>African elephants, unlike their Asian relatives, are not easily domesticated. They range
+            throughout sub-Saharan Africa and the rain forests of central and West Africa. The
+            continent’s northernmost elephants are found in Mali’s Sahel desert. The small, nomadic
+            herd of Mali elephants migrates in a circular route through the desert in search of
+            water.
+        </p>
+    </body>
+</article>

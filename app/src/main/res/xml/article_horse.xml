@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <name>Horse</name>
+        <description>Domestic horses have a lifespan of around 25 years.</description>
+        <icon>
+            https://vignette.wikia.nocookie.net/vsbattles/images/f/fa/Quarter_Horse.jpg/revision/latest?cb=20190501064144
+        </icon>
+        <gallery>
+            <url>
+                https://ewscripps.brightspotcdn.com/dims4/default/a1b5c85/2147483647/strip/true/crop/1000x563+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F47%2Fd8%2F5054723a4c58aa48ab1bad74d4b9%2Fwptv-wild-horse-running.jpg
+            </url>
+            <url>
+                https://24z6gu488g2e14nygp30d0jy-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/11392583_web1_180413-KIR-HorseM.jpg
+            </url>
+            <url>
+                https://www.telegraph.co.uk/content/dam/news/2016/09/03/suffolk_punch-xxlarge_trans_NvBQzQNjv4BqUbzvD9ouAAOpO_mEfvrdBVA0VtEYzfHXJUGqhmNiH34.jpg
+            </url>
+        </gallery>
+    </head>
+    <body>
+        <p>Horses and humans have an ancient relationship. Asian nomads probably domesticated the
+            first horses some 4,000 years ago, and the animals remained essential to many human
+            societies until the advent of the engine. Horses still hold a place of honor in many
+            cultures, often linked to heroic exploits in war.
+        </p>
+        <section>Wild and Domesticated</section>
+        <p>There is only one species of domestic horse, but around 400 different breeds that
+            specialize in everything from pulling wagons to racing. All horses are grazers.
+        </p>
+        <img
+            description="Wild konik horses in Poland."
+            src="https://images.immediate.co.uk/production/volatile/sites/23/2019/04/SZA-20140711_194702-07ff9f9.jpg?quality=90&amp;lb=1112,740&amp;background=white" />
+        <p>While most horses are domestic, others remain wild. Feral horses are the descendents of
+            once-tame animals that have run free for generations. Groups of such horses can be found
+            in many places around the world. Free-roaming North American mustangs, for example, are
+            the descendents of horses brought by Europeans more than 400 years ago.
+        </p>
+        <p>The Przewalski's horse is the only truly wild horse whose ancestors were never
+            domesticated. Ironically, this stocky, sturdy animal exists today only in captivity. The
+            last wild Przewalski's horse was seen in Mongolia in 1968.
+        </p>
+    </body>
+</article>
