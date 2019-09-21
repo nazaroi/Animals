@@ -18,8 +18,6 @@ import timber.log.Timber
 // not using VMMV for this gallery feature
 class GalleryFragment : Fragment() {
 
-    private var isFullMode = false
-
     private val args: GalleryFragmentArgs by navArgs()
 
     override fun onCreateView(

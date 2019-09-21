@@ -1,7 +1,5 @@
 package com.sample.app.ui.gallery
 
-import android.animation.AnimatorSet
-import android.animation.ObjectAnimator
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,15 +8,11 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.sample.app.R
-import kotlinx.android.synthetic.main.fragment_gallery.*
 import kotlinx.android.synthetic.main.fragment_gallery_pager.*
-import org.jetbrains.anko.sdk27.coroutines.onClick
-
 
 class GalleryPagerFragment : Fragment() {
 
     private lateinit var mUrl: String
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,10 +31,7 @@ class GalleryPagerFragment : Fragment() {
         Glide.with(this)
             .load(mUrl)
             .into(fragment_gallery_pager_image)
-
     }
-
-
 
     companion object {
         const val ARG_GALLERY_PAGER_URL = "gallery_pager_url"

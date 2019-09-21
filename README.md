@@ -6,9 +6,9 @@ A kotlin sample app illustrating some Android development best practices with An
 Screenshots
 -----------
 <p align="center">
-<img width="240" src="screenshots/list_of_turtels.png">
-<img width="240" src="screenshots/turtle_details.png">
-<img  width="240" src="screenshots/turtle_gallery.png">
+<img width="240" src="screenshots/list_of_animals.png">
+<img width="240" src="screenshots/elephant_article.png">
+<img width="240" src="screenshots/elephant_gallery.png">
 </p>
 
 
