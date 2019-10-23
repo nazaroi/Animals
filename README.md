@@ -6,8 +6,8 @@ A animals app illustrating Android development best practices with Android Jetpa
 ## Screenshots
 
 <p align="center">
-<img width="240" src="screenshots/screenshot_1.png">
 <img width="240" src="screenshots/screenshot_2.png">
+<img width="240" src="screenshots/screenshot_1.png">
 <img width="240" src="screenshots/screenshot_3.png">
 </p>
 
