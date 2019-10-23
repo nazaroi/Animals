@@ -5,7 +5,7 @@
     <data>
 
         <variable
-            name="tabUrl"
+            name="url"
             type="String" />
     </data>
 
@@ -20,6 +20,6 @@
             android:layout_height="match_parent"
             android:contentDescription="@null"
             android:scaleType="centerCrop"
-            app:imageUrl="@{tabUrl}" />
+            app:imageUrl="@{url}" />
     </FrameLayout>
 </layout>

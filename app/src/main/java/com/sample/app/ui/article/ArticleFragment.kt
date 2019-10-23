@@ -11,7 +11,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.sample.app.R
 import com.sample.app.databinding.FragmentArticleBinding
-import com.sample.app.shared.result.EventObserver
+import com.sample.app.shared.EventObserver
 
 
 class ArticleFragment : Fragment() {
@@ -41,9 +41,10 @@ class ArticleFragment : Fragment() {
 
         binding.let {
             it.viewModel = viewModel
-            it.eventListener = viewModel
             it.lifecycleOwner = this
-            it.toolbar.setNavigationOnClickListener { findNavController().navigateUp() }
+            it.toolbar.setNavigationOnClickListener {
+                findNavController().navigateUp()
+            }
         }
 
         viewModel.loadArticle(args.articleId)
@@ -52,12 +53,13 @@ class ArticleFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        viewModel.navigateToGallery.observe(this, EventObserver { galleryUrls ->
-            findNavController().navigate(
-                R.id.to_gallery,
-                bundleOf("gallery_urls" to galleryUrls.toTypedArray())
-            )
-        })
+        viewModel.navigateToGallery.observe(this,
+            EventObserver { galleryUrls ->
+                findNavController().navigate(
+                    R.id.to_gallery,
+                    bundleOf("gallery_urls" to galleryUrls.toTypedArray())
+                )
+            })
     }
 }
 

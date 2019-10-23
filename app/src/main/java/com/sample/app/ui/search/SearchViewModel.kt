@@ -3,10 +3,10 @@ package com.sample.app.ui.search
 import androidx.lifecycle.*
 import com.sample.app.model.ArticleId
 import com.sample.app.model.SearchResult
-import com.sample.app.shared.result.Event
+import com.sample.app.shared.Event
 
 class SearchViewModel(private val loadSearchResultsUseCase: SearchUseCase) : ViewModel(),
-    SearchResultActionHandler {
+    SearchResultHandler {
 
     private val _navigateToArticleAction = MutableLiveData<Event<ArticleId>>()
     val navigateToArticleAction: LiveData<Event<ArticleId>>
@@ -24,7 +24,7 @@ class SearchViewModel(private val loadSearchResultsUseCase: SearchUseCase) : Vie
         }
     }
 
-    override fun openSearchResult(searchResult: SearchResult) {
+    override fun open(searchResult: SearchResult) {
         _navigateToArticleAction.value = Event(searchResult.id)
     }
 

@@ -1,4 +1,4 @@
-package com.sample.app.shared.result
+package com.sample.app.shared
 
 import androidx.lifecycle.Observer
 

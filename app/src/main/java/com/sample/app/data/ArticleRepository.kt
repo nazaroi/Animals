@@ -3,8 +3,7 @@ package com.sample.app.data
 import android.content.Context
 import android.util.Xml
 import com.sample.app.model.*
-import com.sample.app.util.nextTextClean
-import com.sample.app.util.textClean
+import com.sample.app.utilities.*
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserException
 import java.io.IOException
@@ -32,7 +31,7 @@ object ArticleRepository {
                                 when (xpp.name) {
                                     TAG_NAME -> article.name = xpp.nextTextClean()
                                     TAG_DESCRIPTION -> article.description = xpp.nextTextClean()
-                                    TAG_ICON -> article.icon = xpp.nextTextClean()
+                                    TAG_IMAGE -> article.image = xpp.nextTextClean()
                                     TAG_GALLERY -> {
                                         xpp.next()
                                         article.galleryUrls.run {

@@ -3,9 +3,9 @@
     <head>
         <name>Giant Panda</name>
         <description>Giant pandas are good at climbing trees and can also swim.</description>
-        <icon>
+        <image>
             https://media.buzzle.com/media/images-en/gallery/mammals/panda/1200-492303921-panda-sleeping.jpg
-        </icon>
+        </image>
         <gallery>
             <url>
                 https://nationalzoo.si.edu/sites/default/files/styles/1400_scale/public/animals/giantpanda-001.jpg?itok=QjpspIsF

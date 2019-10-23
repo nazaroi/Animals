@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.fragment_gallery.*
 import org.jetbrains.anko.sdk27.coroutines.onClick
 import timber.log.Timber
 
-// not using VMMV for this gallery feature
+// not using VMMV
 class GalleryFragment : Fragment() {
 
     private val args: GalleryFragmentArgs by navArgs()
@@ -53,7 +53,7 @@ class GalleryFragment : Fragment() {
     private fun getGalleryCustomView(tabLayout: ViewGroup, url: String): View {
         val inflater = LayoutInflater.from(context)
         val binding = ItemTabGalleryBinding.inflate(inflater, tabLayout, false);
-        binding.tabUrl = url
+        binding.url = url
         return binding.root
     }
 }

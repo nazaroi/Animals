@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <dimen name="app_bar_height">56dp</dimen>
-    <dimen name="bottom_bar_height">48dp</dimen>
+    <dimen name="tab_layout_height">48dp</dimen>
 
     <dimen name="margin_small">8dp</dimen>
     <dimen name="margin_normal">16dp</dimen>
@@ -16,4 +14,8 @@
     <dimen name="text_size_18sp">18sp</dimen>
     <dimen name="text_size_22sp">22sp</dimen>
     <dimen name="text_size_24sp">24sp</dimen>
+
+    <dimen name="stroke_size_small">1dp</dimen>
+
+    <dimen name="expanded_app_bar_height">192dp</dimen>
 </resources>

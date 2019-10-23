@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="articleIds">
+    <array name="article_ids">
         <item>@xml/article_african_elephant</item>
         <item>@xml/article_african_lion</item>
         <item>@xml/article_arctic_fox</item>

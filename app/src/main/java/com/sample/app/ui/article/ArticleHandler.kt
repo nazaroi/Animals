@@ -1,5 +1,5 @@
 package com.sample.app.ui.article
 
-interface OpenGalleryActionHandler {
+interface ArticleHandler {
     fun openGallery(galleryUrls: List<String>)
 }

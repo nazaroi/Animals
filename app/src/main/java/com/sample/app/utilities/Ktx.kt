@@ -1,4 +1,4 @@
-package com.sample.app.util
+package com.sample.app.utilities
 
 import org.xmlpull.v1.XmlPullParser
 

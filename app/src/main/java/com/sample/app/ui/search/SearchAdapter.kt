@@ -1,15 +1,16 @@
 package com.sample.app.ui.search
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.sample.app.databinding.ItemSearchResultBinding
 import com.sample.app.model.SearchResult
 
-class SearchAdapter(val searchResultActionHandler: SearchResultActionHandler) :
-    ListAdapter<SearchResult, SearchAdapter.SearchViewHolder>(SearchDiff) {
+class SearchAdapter : ListAdapter<SearchResult, SearchAdapter.SearchViewHolder>(SearchDiff) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SearchViewHolder {
         val inflater = LayoutInflater.from(parent.context)
@@ -17,15 +18,27 @@ class SearchAdapter(val searchResultActionHandler: SearchResultActionHandler) :
         return SearchViewHolder(binding)
     }
 
-    override fun onBindViewHolder(holder: SearchViewHolder, position: Int): Unit =
-        holder.bind(getItem(position))
+    override fun onBindViewHolder(holder: SearchViewHolder, position: Int) {
+        getItem(position).let { articles ->
+            with(holder) {
+                bind(createOnClickListener(articles.id), articles)
+            }
+        }
+    }
+
+    private fun createOnClickListener(articleId: Int): View.OnClickListener {
+        return View.OnClickListener {
+            val direction = SearchFragmentDirections.toArticleDetail(articleId)
+            it.findNavController().navigate(direction)
+        }
+    }
 
     inner class SearchViewHolder(private val binding: ItemSearchResultBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(searchResult: SearchResult) {
+        fun bind(clickListener: View.OnClickListener, searchResult: SearchResult) {
             binding.searchResult = searchResult
-            binding.eventListener = searchResultActionHandler
+            binding.clickListener = clickListener
             binding.executePendingBindings()
         }
     }

@@ -4,8 +4,8 @@ import android.annotation.SuppressLint
 import android.content.Context
 import androidx.core.content.res.use
 import com.sample.app.R
-import com.sample.app.model.SearchResult
-import com.sample.app.util.nextTextClean
+import com.sample.app.model.*
+import com.sample.app.utilities.*
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserException
 import java.io.IOException
@@ -27,7 +27,7 @@ object SearchRepository {
 
     @SuppressLint("Recycle")
     private fun getArticleIds(context: Context): List<Int> {
-        val typedArray = context.resources.obtainTypedArray(R.array.articleIds)
+        val typedArray = context.resources.obtainTypedArray(R.array.article_ids)
         return typedArray.use {
             IntArray(typedArray.length()).mapIndexed { index, _ ->
                 typedArray.getResourceId(
@@ -55,7 +55,7 @@ object SearchRepository {
                                     TAG_NAME -> searchResult.name = xpp.nextTextClean()
                                     TAG_DESCRIPTION -> searchResult.description =
                                         xpp.nextTextClean()
-                                    TAG_ICON -> searchResult.icon = xpp.nextTextClean()
+                                    TAG_IMAGE -> searchResult.icon = xpp.nextTextClean()
                                 }
                                 xpp.next()
                             }

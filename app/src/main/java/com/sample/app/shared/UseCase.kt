@@ -1,4 +1,4 @@
-package com.sample.app.shared.domain
+package com.sample.app.shared
 
 import androidx.lifecycle.MutableLiveData
 import java.util.concurrent.ExecutorService
@@ -8,7 +8,8 @@ private const val NUMBER_OF_THREADS = 4
 
 abstract class UseCase<P, R> {
 
-    private var taskScheduler: Scheduler = AsyncScheduler
+    private var taskScheduler: Scheduler =
+        AsyncScheduler
 
     fun invoke(parameters: P, result: MutableLiveData<Result<R>>) {
 

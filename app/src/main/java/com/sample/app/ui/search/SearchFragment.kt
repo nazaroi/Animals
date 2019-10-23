@@ -13,7 +13,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import com.sample.app.R
 import com.sample.app.databinding.FragmentSearchBinding
-import com.sample.app.shared.result.EventObserver
+import com.sample.app.shared.EventObserver
 import kotlinx.android.synthetic.main.fragment_search.view.*
 
 class SearchFragment : Fragment() {
@@ -63,12 +63,13 @@ class SearchFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        viewModel.navigateToArticleAction.observe(this, EventObserver { speakerId ->
-            findNavController().navigate(
-                R.id.to_article_detail,
-                bundleOf("article_id" to speakerId)
-            )
-        })
+        viewModel.navigateToArticleAction.observe(this,
+            EventObserver { speakerId ->
+                findNavController().navigate(
+                    R.id.to_article_detail,
+                    bundleOf("article_id" to speakerId)
+                )
+            })
     }
 
     private fun showKeyboard(view: View) {

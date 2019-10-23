@@ -1,4 +1,4 @@
-package com.sample.app.data
+package com.sample.app.model
 
 const val TAG_ARTICLE = "article"
 
@@ -7,7 +7,7 @@ const val TAG_HEAD = "head"
 
 const val TAG_NAME = "name"
 const val TAG_DESCRIPTION = "description"
-const val TAG_ICON = "icon"
+const val TAG_IMAGE = "image"
 
 const val TAG_GALLERY = "gallery"
 const val TAG_URL = "url"

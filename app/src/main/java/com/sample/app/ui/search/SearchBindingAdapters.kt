@@ -13,7 +13,7 @@ fun searchResultItems(
 ) {
 
     if (recyclerView.adapter == null) {
-        recyclerView.adapter = SearchAdapter(searchViewModel)
+        recyclerView.adapter = SearchAdapter()
     }
 
     if (list.isNullOrEmpty()) {

@@ -6,8 +6,8 @@
     <data>
 
         <variable
-            name="eventListener"
-            type="com.sample.app.ui.search.SearchResultActionHandler" />
+            name="clickListener"
+            type="android.view.View.OnClickListener" />
 
         <variable
             name="searchResult"
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?android:attr/selectableItemBackground"
-        android:onClick="@{()->eventListener.openSearchResult(searchResult)}">
+        android:onClick="@{clickListener}">
 
         <TextView
             android:id="@+id/search_result_title"
@@ -29,16 +29,15 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
             android:textColor="@android:color/black"
             app:fontFamily="@font/khula"
-            app:layout_constraintStart_toEndOf="@+id/search_result_icon"
-            app:layout_constraintTop_toTopOf="@+id/search_result_icon"
+            app:layout_constraintStart_toEndOf="@+id/search_result_image"
+            app:layout_constraintTop_toTopOf="@+id/search_result_image"
             tools:text="@tools:sample/full_names" />
 
         <ImageView
-            android:id="@+id/search_result_icon"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
+            android:id="@+id/search_result_image"
+            android:layout_width="@dimen/search_result_image_size"
+            android:layout_height="@dimen/search_result_image_size"
+            android:layout_marginStart="@dimen/margin_normal"
             android:layout_marginTop="8dp"
             android:contentDescription="@null"
             app:circleImageUrl="@{searchResult.icon}"

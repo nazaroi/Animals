@@ -2,10 +2,9 @@ package com.sample.app.ui.article
 
 import androidx.lifecycle.*
 import com.sample.app.model.Article
-import com.sample.app.shared.result.Event
+import com.sample.app.shared.Event
 
-class ArticleViewModel(private val articleUseCase: ArticleUseCase) : ViewModel(),
-    OpenGalleryActionHandler {
+class ArticleViewModel(private val articleUseCase: ArticleUseCase) : ViewModel(), ArticleHandler {
 
     private val loadArticle = MutableLiveData<Result<Article>>()
 

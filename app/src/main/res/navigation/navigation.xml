@@ -28,7 +28,7 @@
     <fragment
         android:id="@+id/galleryFragment"
         android:name="com.sample.app.ui.gallery.GalleryFragment"
-        android:label="GalleryFragment" >
+        android:label="GalleryFragment">
         <argument
             android:name="gallery_urls"
             app:argType="string[]" />

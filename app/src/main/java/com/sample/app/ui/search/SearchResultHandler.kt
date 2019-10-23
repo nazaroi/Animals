@@ -5,6 +5,6 @@ import com.sample.app.model.SearchResult
 /**
  * Actions that can be performed on a [SearchResult]
  */
-interface SearchResultActionHandler {
-    fun openSearchResult(searchResult: SearchResult)
+interface SearchResultHandler {
+    fun open(searchResult: SearchResult)
 }

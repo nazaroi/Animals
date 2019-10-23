@@ -3,7 +3,7 @@ package com.sample.app.ui.search
 import android.content.Context
 import com.sample.app.data.SearchRepository
 import com.sample.app.model.SearchResult
-import com.sample.app.shared.domain.UseCase
+import com.sample.app.shared.UseCase
 
 class SearchUseCase(val context: Context) : UseCase<String, List<SearchResult>>() {
 
