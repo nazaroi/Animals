@@ -4,7 +4,7 @@ Kotlin Turtle Sample App
 A animals app illustrating Android development best practices with Android Jetpack.
 
 ## Screenshots
------------
+
 <p align="center">
 <img width="240" src="screenshots/list_of_animals.png">
 <img width="240" src="screenshots/elephant_article.png">
@@ -13,7 +13,7 @@ A animals app illustrating Android development best practices with Android Jetpa
 
 
 ## Libraries Used
---------------
+
 * [Foundation][0] - Components for core system capabilities, Kotlin extensions and support for
   multidex and automated testing.
   * [AppCompat][1] - Degrade gracefully on older versions of Android.
